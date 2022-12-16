@@ -1,0 +1,76 @@
+.map{
+    height:170vh;
+    width: 100%;
+    margin-top: 100px;
+}
+.road{
+    width: 100%;
+    text-align: center;
+    height: 35vh;
+    background: #42aeeb;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.road h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #1d1e5f;
+}
+.road p{
+    width: 50%;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #1d1e5f;
+}
+.phase{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #1d1e5f;
+}
+.phase span{
+    cursor: pointer;
+} 
+.phase .p1{
+    color: #fff;
+}
+.map-card{
+    height:auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card-body{
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+}
+.card-prop1{
+    align-self: flex-start;
+}
+.card-prop2{
+    align-self: flex-end;
+}
+.left{
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 10px;
+}
+.right{
+    align-self: flex-end;
+    text-align: right;
+    margin-right: 10px;
+}

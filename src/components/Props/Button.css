@@ -1,0 +1,78 @@
+
+.btn-small span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+    font-size: 17px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.btn-small i{
+   color: rgb(20, 20, 20);
+   font-size: 15px;
+   rotate: 120deg;
+}
+.btn-small .btn-icon1{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.btn-small .btn-icon2{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+.btn-small{
+    text-align: center;
+    position: relative;
+    width: 175px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-big{
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-big span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+    font-size: 18px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.btn-big i{
+   color: rgb(20, 20, 20);
+   font-size: 16px;
+   rotate: 120deg;
+}
+.btn-big .btn-icon1{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.btn-big .btn-icon2{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+.btn-skew{
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 223, 62);
+    position: absolute;
+    z-index: -1;
+    transform: skew(5deg);
+    border-radius: 10px;
+}

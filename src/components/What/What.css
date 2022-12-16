@@ -1,0 +1,19 @@
+.what{
+    height: 50vh;
+    background: rgb(103, 70, 144);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+.what h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.what p{
+    width: 700px;
+    font-weight: lighter;
+}

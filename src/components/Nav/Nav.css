@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    top:50px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .navbar .logo{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+.nav-item ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap:50px;
+}
+.nav-item li{
+    cursor: pointer;
+    color: #fff;
+}
+.nav-item li:hover{
+   color: rgb(255, 223, 62);
+}

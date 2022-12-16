@@ -1,0 +1,43 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.hero-head{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.hero-head .mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 25px;
+}
+.hero-head .mid h3{
+    font-size: 50px;
+    max-width: 500px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.hero-head .left-img{
+    position: absolute;
+    left:50px;
+}
+.hero-head .right-img{
+    position: absolute;
+    right:50px;
+}
+.hero-head .left-img img{
+    width: 392px;
+    height: 455px;
+}
+.hero-head .right-img img{
+    width: 253px;
+    height: 369px;
+}

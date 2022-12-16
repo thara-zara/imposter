@@ -1,0 +1,138 @@
+.team{
+    margin-top: 100px;
+    height: 75vh;
+    width: 100%;
+    background: rgb(103, 70, 144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+    z-index: -1;
+}
+.team h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.team h5{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.team p{
+    width:65%;
+    text-align: center;
+    color: rgb(213, 213, 213);
+    text-transform: capitalize;
+}
+.team-cards{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+.team-cards-left{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.team-cards-left-skew{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background:#ff9db8;
+    z-index: 1;
+    transform: skew(-5deg);
+    border-radius: 20px;
+}
+.team-cards-right-skew{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background:#ff9db8;
+    z-index: 1;
+    transform: skew(-5deg);
+    border-radius: 20px;
+}
+.team-cards-left img{
+    width: 50px;
+}
+.team-cards-left .img{
+    padding: 10px;
+    background: #ffdc5f;
+    border-radius: 100px;
+    position: absolute;
+    border: 5px solid #ff9db8;
+    top: -75px;
+    z-index: 1000;
+}
+.team-cards-right .img{
+    padding: 10px;
+    background: #f06565;
+    border-radius: 100px;
+    position: absolute;
+    border: 5px solid #ff9db8;
+    top: -75px;
+    z-index: 1000;
+}
+.team-cards-right img{
+    object-fit:contain;
+    width: 50px;
+
+}
+.team-cards-right{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.team-cards h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #1d1e5f;
+    z-index: 1000;
+}
+.team-cards h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #1d1e5f;
+    z-index: 1000;
+}
+.team-cards p{
+    font-size: 15px;
+    width: 90%;
+    line-height: 20px;
+    color: #1d1e5f;
+    z-index: 1000;
+}
+.jjj{
+color: #7656bd
+
+#1d1e5f
+
+#f0f907
+
+#42aeeb
+
+#ff5986
+
+#9e59ff
+
+#ff9db8
+
+#9e59ff;
+}

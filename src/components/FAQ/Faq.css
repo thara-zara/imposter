@@ -1,0 +1,77 @@
+.faq{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+.faq .faq-card1{
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.faq .skew1{
+    width: 450px;
+    height: 250px;
+    background: #9e59ff;
+    position: absolute;
+    left: 100px;
+    transform: skew(5deg);
+    z-index: -1;
+    border-radius: 20px;
+}
+.c-body{
+    margin-left: 25px;
+    width: 80%;
+    height: 100%;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.c-body h1{
+    color: #fff;
+    position: absolute;
+    top: 20px;
+}
+.c-body p{
+    position: absolute;
+    top: 60px;
+}
+.c-body h5{
+    position: absolute;
+    top: 125px;
+}
+.Button{
+    position: absolute;
+    bottom: 25px;
+}
+.faq-card2{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 500px;
+    bottom: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.faq .skew2{
+    width: 350px;
+    height: 250px;
+    background: #9e59ff;
+    position: absolute;
+    left: 500px;
+    bottom: -25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    z-index: -1;
+    transform: skew(-5deg);
+}
+.faq img{
+    position: absolute;
+    right: 200px;
+}

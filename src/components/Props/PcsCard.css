@@ -1,0 +1,84 @@
+
+.card01{
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+.card02{
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+.card03{
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+.pcs1{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    background: rgb(28, 217, 255);
+    border-radius: 10px;
+    transform: skew(10deg);
+    z-index: -1;
+}
+.pcs2{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    background: rgb(247, 77, 128);
+    border-radius: 10px;
+    transform: skew(-10deg);
+    z-index: -1;
+}
+.pcs3{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    background: rgb(214, 119, 255);
+    border-radius: 10px;
+    transform: skew(10deg);
+    z-index: -1;
+}
+.ig3{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top:-100px;
+    left: 0;
+}
+.ig2{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top:-100px;
+    left: 0;
+}
+.ig1 {
+    position: absolute;
+    width: 110px;
+    height: 150px;
+    top:-100px;
+    right: 0;
+}
+.crad-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.crad-content h1{
+    width: 100%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(20, 17, 73);
+    
+}
+.crad-content p{
+    width: 400px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(20, 17, 73);
+}
